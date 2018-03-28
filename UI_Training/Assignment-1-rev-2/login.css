@@ -1,0 +1,125 @@
+	.main-body{
+		overflow: hidden;
+		background-color:#e6e6e6;
+	}
+
+	.psd-layer-group{
+		margin: 150px auto;
+		width: 500px;
+		background-color: white;
+		border-radius: 3px;
+		box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.12);
+	}
+
+	.headerName{	
+		height: 100px;		
+		background-color: #17a2d4;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+	}
+
+	.sports-exchange{
+		padding-top: 31px;
+		font-family: Lato;
+		color:#f4f4f4;
+		text-align: center;
+		font-weight: 800;
+		font-size: 30px;
+	}
+
+	.inner-layer-group{
+		margin-left: 30px;
+		margin-top: 20px;
+		width: 450px;
+		background-color: white;
+	}
+	
+	.text-box-email{
+		height: 60px;
+		width: 410px;
+		border-radius: 3px;
+		border: 1px solid #e8e8e8;		
+		background-color: #f6f6f6;
+	}
+
+	.text-box-password{
+		margin-top: 20px;			
+		height: 60px;
+		width: 410px;
+		border-radius: 3px;
+		border:1px solid #e8e8e8;		
+		background-color: #f6f6f6;
+	}
+	.login-button{
+		margin-top: 20px;	
+		width: 450px;	
+		height: 60px;		
+		border-radius: 3px;
+		background-color: #17a2d4;
+	}
+	#text-login{
+		font-family: Lato;
+		color: #ffffff;
+		font-size: 18px;
+		font-weight: 400;
+		text-align:left;
+		padding: 0px 20px;
+	}	
+	.facebook-button{	
+		width: 210px;
+		height: 60px;
+		display: block;
+		float: left;
+		border-radius: 3px;
+		background-color: #3b5998;
+	}
+	.text-facebook{
+		font-family: Lato;
+		color: #ffffff;
+		font-size: 18px;
+		font-weight: 400;
+	}
+	.google-button{		
+		float: right;
+		width: 210px;
+		height: 60px;
+		display: flex;
+		border-radius: 3px;
+		background-color: #d34836;
+	}
+	.main-button-div{
+		margin-top: 20px;
+		background-color: white;
+		width: 450px;
+		height: 60px;
+	}
+	.text-link-main{
+		background-color: white;
+		height: 48px;
+		margin-top: 16px;
+	}
+	.text-forgot-password{
+		font-family: Lato;
+		color: #000000;
+		font-size: 18px;
+		font-weight: 400;
+		text-decoration: none;
+
+	}	
+	.text-sign-up{
+			font-family: Lato;
+			color: #000000;
+			font-size: 18px;
+			font-weight: 400;	
+			float: right;
+			text-decoration: none;
+	}
+
+	input[type=email]{
+  		padding: 0px 20px;
+	}
+
+	input[type=password]{
+  		padding: 0px 20px;
+  	}
+
