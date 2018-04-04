@@ -1,0 +1,332 @@
+body{
+			overflow: hidden;
+			background-color: #f2f2f2;
+			margin: 0px;
+		}	
+
+		.div-main{
+			background-color: #f2f2f2;
+			height: auto;
+			
+		}
+
+		.div-navbar{
+			padding: 8px 289px;
+			background-color: #17a2d4;
+			overflow: hidden;
+		}
+
+		.sport-exchange{
+			padding: 9px 0px;
+			font-family: Lato;
+			color: #f4f4f4;
+			font-size: 24px;
+			font-weight: 800;
+			text-align: left;
+			float: left;
+			word-spacing: 15px;
+		}
+
+		.div-button{
+			float: right;			
+			width: 54px;
+			height: 54px;
+			border-radius: 50%;
+			background-color: white;
+			padding: 2px;
+		}
+
+		.avatar{
+			vertical-align: middle;
+			width: 50px;
+			height: 50px;
+			float: right;
+			border-radius: 50px;
+		}
+
+		.div-main-content{
+			clear: both;			
+			margin: 50px 289px;
+			border-radius: 3px;
+			box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.12);
+		}
+
+		.content-header{
+			overflow: hidden;
+			border-top-left-radius: 3px;
+			border-top-right-radius: 3px;
+			padding: 23px 30px 21px 37px;
+			background-color: #fbfbfb;	
+			border: 1px solid #e9e9e9;		
+		}
+
+		.div-content-image{
+			height: 77px;
+			width: 77px;
+			float: left;
+			display: inline;
+		}
+
+		.div-content-image .avatar{
+			width: 77px;
+			height: 77px;
+		}
+
+		.div-content-text{
+			padding: 18px 20px;
+			float: left;
+			display: block;
+		}
+
+		.div-ancient-warrier{
+			padding: 0px 0px;
+			font-family: Lato;
+			font-size: 18px;
+			font-weight: 700;
+			word-spacing: 5px;
+			line-height: 1.3;
+		}
+
+		.div-soccer{
+			font-family: Lato;
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 17px;
+		}
+
+		.div-header-arrow-btn{
+			width: 38px;
+			height: 38px;
+			border-radius: 50%;
+			border:2px solid #d9d9d9;
+			box-sizing: border-box;
+			background-color: #ffffff;
+			float: right;
+			margin-top: 20px;
+		}
+
+		.arraw-img{
+			height: 28px;
+			width: 28px;
+			border-radius: 50%;
+			padding: 5px 3.5px;
+			font-weight: 
+		}
+		.arrow-down{
+			transform: rotate(45deg);
+			border: solid #d9d9d9;
+  			border-width: 0 2px 2px 0;
+  			display: inline-block;
+  			padding: 5px;
+  			margin-left: 11px;
+  			margin-top: 9px;
+		}
+
+		.menu-bar{
+			box-shadow: 0px 3px 3.92px 0.08px rgba(0,0,0,0.18);
+			padding: 13px 20px 0px 0px;
+			background-color: #ffffff;
+			font-weight: 700;	
+			font-family: Lato;
+			font-size: 16px;			
+			line-height: 32px;
+			color: #000000;		
+		}
+
+		.menus{
+			-webkit-margin-before: 0em;
+    		-webkit-margin-after: 0em;
+    		padding-bottom: 0px;
+		}
+
+		ul{
+			list-style-type: none;
+			margin: 0px;
+			padding: 0px;
+			overflow: hidden;
+		}
+
+		li{
+			float: left;
+		}
+
+		.li-style{
+			margin-left: 50px;
+			padding-bottom: 15px;
+		}
+
+		.li-style1{
+			margin-left: 105px;
+			padding-bottom: 15px;
+		}
+		a{
+			text-decoration: none;
+			color: #000000;
+		}
+
+		.btn-content{
+			padding: 18px 28px 18px 20px;
+			background-color: #ffffff;
+			display: block;
+			overflow: hidden;
+			border:1px solid #e9e9e9;
+		}
+
+		.btn-upcoming-events{
+			font-family: Lato;
+			color: #ffffff;
+			font-size: 18px;
+			font-weight: 400;			
+			border-width: 0px;
+			border-bottom-left-radius: 3px;
+			border-top-left-radius: 3px;
+			background-color: #17a2d4;
+			padding: 7px 20px ;
+			margin-left: 10px;
+			float: left;
+		}
+
+		.btn-past-events{
+			font-family: Lato;
+			color:#010000;
+			font-size: 18px;
+			font-weight: 400;
+			border-width: 0px;
+			border-bottom-left-radius: 3px;
+			border-top-left-radius: 3px;
+			background-color: #e9e9e9;
+			padding: 7px 45px;
+		}
+
+		.btn-create-new-event{
+			font-family: Lato;
+			color: #fefefe;
+			font-size: 18px;
+			font-weight: 400;			
+			border-radius: 3px;
+			background-color: #17a2d4;
+			padding: 7px 19px;
+			border-width: 0px;
+			float: right;
+		}
+		
+		.div-data-row{
+			clear: both;
+			background-color: white;
+			overflow: hidden;
+		}
+
+		.div-sub-row-1{
+			background-color: white;
+			padding:20px 30px 20px 31px;
+			overflow: hidden;
+		}
+
+		.circle{
+			height: 44px;
+			width: 44px;
+			border-radius: 50%;
+			border: 2px solid #d7d7d7;
+			float: left;
+			display: inline;
+		}
+
+		.number{
+			display: inline-block;
+			padding: 9px;
+			margin-left: 6px;
+			font-family: Lato;
+			color: #b7b7b7;
+			font-size: 18px;
+			font-weight: 700;
+			transform: rotate(-5deg);
+			float:left;
+		}
+
+		.team-name{
+			padding:9px 22px; 
+			overflow: hidden;
+			font-family: Lato;
+			color: black;
+			font-size: 17px;
+			font-weight: 400;
+			float: left;
+			word-spacing: 4px;
+		}
+
+		.div-dlt{
+			height: 30px;
+			width: 30px;
+			border-radius: 50%;
+			background-color: white;
+			float: right;
+			display: inline;
+			margin-top: 8px;
+			border :1px solid #c2c2c2;
+		}
+
+		.dlt-icon{
+			clear: both;
+			padding: 6px 7px;
+			color: #c6c6c6;
+			border-radius: 50%;
+			font-size: 16px;
+		}
+
+		.div-sub-row-2{
+			padding: 12px 20px 12px 28px;
+			background-color: rgba(1, 2, 2, 0.04);
+		}
+
+		.div-sub-row-2 ul{
+			overflow: hidden;
+			padding: 0px;
+		}
+
+		#col{
+			font-family: Lato;
+			color: #8c8c8c;
+			font-size: 14px;
+			font-weight: 400;
+			text-align: center;
+		}
+
+		.col-2{
+			padding: 0px 70px 0px 160px;
+		}
+
+		.col-3{
+			padding: 0px 70px 0px 51px;
+		}
+
+		.div-sub-row-3{
+			overflow: hidden;
+			padding: 8px 20px 10px 28px;
+			background-color: rgba(1, 2, 2, 0.02)
+		}
+
+		.col-3-2{
+			padding: 0px 55px 0px 135px;	
+		}
+
+		.col-3-3{
+			padding: 0px 90px 0px 30px;
+		}
+
+		#col-1{
+			font-family: Lato;
+			color:black;
+			font-size: 14px;
+			font-weight: 400;
+		}
+
+		hr{
+			-webkit-margin-before:0.0em;
+			-webkit-margin-after:0.0em;
+			border-color: black;
+			border-top: 0.5px solid black;
+		}
+
+		#bottom-border:hover {  
+			border-bottom: 4px solid #17a2d4;
+		}
