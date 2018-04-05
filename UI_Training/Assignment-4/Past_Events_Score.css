@@ -1,17 +1,17 @@
 body{
-			overflow: hidden;
 			background-color: #f2f2f2;
 			margin: 0px;
 		}	
 
 		.div-main{
 			background-color: #f2f2f2;
-			height: auto;			
+			overflow: hidden;
+			height: auto;
 		}
 
 		.div-navbar{
-			padding: 8px 289px;
 			background-color: #17a2d4;
+			padding: 8px 289px;
 			overflow: hidden;
 		}
 
@@ -32,7 +32,6 @@ body{
 			height: 54px;
 			border-radius: 50%;
 			background-color: white;
-			padding: 2px;
 		}
 
 		.avatar{
@@ -41,9 +40,12 @@ body{
 			height: 50px;
 			float: right;
 			border-radius: 50px;
+			padding: 2px;
 		}
 
 		.div-main-content{
+			height: auto;
+			background-color:white;
 			clear: both;			
 			margin: 50px 289px;
 			border-radius: 3px;
@@ -54,9 +56,9 @@ body{
 			overflow: hidden;
 			border-top-left-radius: 3px;
 			border-top-right-radius: 3px;
-			padding: 23px 30px 21px 37px;
-			background-color: #fbfbfb;	
-			border: 1px solid #e9e9e9;		
+			padding: 20px 30px 21px 37px;
+			background-color: #fbfbfb;
+			border:2px solid #e9e9e9;
 		}
 
 		.div-content-image{
@@ -64,11 +66,13 @@ body{
 			width: 77px;
 			float: left;
 			display: inline;
+			border-radius: 50%;
+			background-color:rgb(23, 162, 212) 
 		}
 
 		.div-content-image .avatar{
-			width: 77px;
 			height: 77px;
+			width: 77px;
 			padding: 0px;
 		}
 
@@ -105,13 +109,8 @@ body{
 			margin-top: 20px;
 		}
 
-		.arraw-img{
-			height: 28px;
-			width: 28px;
-			border-radius: 50%;
-			padding: 5px 3.5px;
-		}
-		.arrow-down{
+		.arrow-down
+		{
 			transform: rotate(45deg);
 			border: solid #d9d9d9;
   			border-width: 0 2px 2px 0;
@@ -119,17 +118,18 @@ body{
   			padding: 5px;
   			margin-left: 11px;
   			margin-top: 9px;
+  			clear: both;
 		}
 
 		.menu-bar{
 			box-shadow: 0px 3px 3.92px 0.08px rgba(0,0,0,0.18);
-			padding: 13px 20px 0px 0px;
+			padding: 12px 20px 0px 20px;
 			background-color: #ffffff;
 			font-weight: 700;	
 			font-family: Lato;
-			font-size: 16px;			
-			line-height: 32px;
-			color: #000000;		
+			font-size: 16px;
+			line-height: 32px;			
+			color: #000000;	
 		}
 
 		.menus{
@@ -150,8 +150,9 @@ body{
 		}
 
 		.li-style{
-			margin-left: 50px;
+			margin-left: 30px;
 			padding-bottom: 15px;
+			clear: left;
 		}
 
 		.li-style1{
@@ -164,37 +165,37 @@ body{
 		}
 
 		.btn-content{
-			padding: 18px 28px 18px 20px;
-			background-color: #ffffff;
-			display: block;
 			overflow: hidden;
-			border:1px solid #e9e9e9;
+			padding: 13px 28px 18px 22px;
+			background-color: #ffffff;			
+			margin-top: 7px;
+			border-bottom: 1px solid #e9e9e9;
 		}
 
 		.btn-upcoming-events{
 			font-family: Lato;
-			color: #ffffff;
+			color: #000000;
 			font-size: 18px;
 			font-weight: 400;			
 			border-width: 0px;
 			border-bottom-left-radius: 3px;
 			border-top-left-radius: 3px;
-			background-color: #17a2d4;
-			padding: 7px 20px ;
+			background-color: #e9e9e9;
+			padding: 8px 20px ;
 			margin-left: 10px;
 			float: left;
 		}
 
 		.btn-past-events{
 			font-family: Lato;
-			color:#010000;
+			color:#ffffff;
 			font-size: 18px;
 			font-weight: 400;
 			border-width: 0px;
 			border-bottom-left-radius: 3px;
 			border-top-left-radius: 3px;
-			background-color: #e9e9e9;
-			padding: 7px 45px;
+			background-color: #17a2d4;
+			padding: 9px 45px;
 		}
 
 		.btn-create-new-event{
@@ -204,129 +205,157 @@ body{
 			font-weight: 400;			
 			border-radius: 3px;
 			background-color: #17a2d4;
-			padding: 7px 19px;
+			padding: 9px 19px;
 			border-width: 0px;
 			float: right;
 		}
-		
-		.div-data-row{
-			clear: both;
-			background-color: white;
+
+		.div-score-bar{
+			padding: 7px 28px 9px 20px;
+			border-bottom: 1px solid #e9e9e9;
 			overflow: hidden;
 		}
 
-		.div-sub-row-1{
-			background-color: white;
-			padding:20px 30px 20px 31px;
-			overflow: hidden;
-		}
-
-		.circle{
-			height: 44px;
-			width: 44px;
-			border-radius: 50%;
-			border: 2px solid #d7d7d7;
+		.div-score-warrier-logo{
+			height: 36px;
+			width: 36px;
 			float: left;
 			display: inline;
 		}
 
-		.number{
-			display: inline-block;
-			padding: 9px;
-			margin-left: 6px;
+		.div-score-warrier-logo img{
+			height: 36px;
+			width: 36px;
+			background-color: #17a2d4;
+			border-radius: 50%;			
+		}
+
+		.txt-ancient-warrier{
+			float: left;
+			display: inline;
+			padding: 10px 20px 8px 14px;
 			font-family: Lato;
-			color: #b7b7b7;
-			font-size: 18px;
+			color: #000000;
+			font-size: 14px;
 			font-weight: 700;
-			transform: rotate(-5deg);
-			float:left;
+			text-align: left;
+			word-spacing: 5px;
 		}
 
-		.team-name{
-			padding:9px 22px; 
-			overflow: hidden;
-			font-family: Lato;
-			color: black;
-			font-size: 17px;
-			font-weight: 400;
-			float: left;
-			word-spacing: 4px;
-		}
-
-		.div-dlt{
-			height: 30px;
-			width: 30px;
-			border-radius: 50%;
+		.div-devil{
+			margin-left: 8px;
 			background-color: white;
+		}
+
+		.btn-add-score{
+			padding: 7px 25px 8px 16px;
+			background-color: #17a2d4;
+			border-radius: 3px;
+			margin-top: 4px;
+			font-family: Lato;
+			color: #fefefe;
+			font-size: 18px;
+			font-weight: 400;
 			float: right;
-			display: inline;
-			margin-top: 8px;
-			border :1px solid #c2c2c2;
+			border-width: 0px;
+		}
+		.pencil-icon{
+			height: 16px;
+			width: 16px;
+			float: left;
+			margin-top: 10px;
+			margin-left: -2px;
+			color: #17a2d4;
 		}
 
-		.dlt-icon{
-			clear: both;
-			padding: 6px 7px;
-			color: #c6c6c6;
-			border-radius: 50%;
-			font-size: 16px;
+		.div-points-table{
+			height: auto;
+			background-color: #ffffff;
+			overflow: hidden;
+			width: 100%;
+			padding-bottom: 23px;
+		}
+		table{
+			border-collapse: collapse;
+			width: 100%;
+			padding: 0px;
+			border:1px solid #e9e9e9;
+			overflow-x: auto;
 		}
 
-		.div-sub-row-2{
-			padding: 12px 20px 12px 28px;
+		th,td{
+			text-align: left;
+			padding: 8px 10px 8px 10px;	
+			font-family: Lato;	
+		}	
+
+		td:first-child, th:first-child{
+			padding-left: 30px;
+		}		
+
+		table tr th:last-child {
+    		
+		}
+
+		th{
+			font-family: Lato;
+			background-color: white;
+			font-size: 10.98px;
+			font-weight: 400;
+			line-height: 24px;
+			transform: scaleY(1.0001);
+		}	
+
+		td{
+			text-align: left;
+			font-family: Lato;
+			color: #000000;
+			font-size: 12px;
+			font-weight: 400;
+			line-height: 24px;
+			transform: scaleY(1.0001);
+		}
+
+		tr:nth-child(even){
 			background-color: rgba(1, 2, 2, 0.04);
 		}
 
-		.div-sub-row-2 ul{
+		tr:nth-child(odd){
+			background-color: rgba(1, 2, 2, 0.02);
+		}
+
+		.footer-link{
+			clear: both;
+			padding: 0px 32px 23px 32px;
 			overflow: hidden;
-			padding: 0px;
 		}
 
-		#col{
-			font-family: Lato;
-			color: #8c8c8c;
-			font-size: 14px;
-			font-weight: 400;
-			text-align: center;
-		}
-
-		.col-2{
-			padding: 0px 70px 0px 160px;
-		}
-
-		.col-3{
-			padding: 0px 70px 0px 51px;
-		}
-
-		.div-sub-row-3{
+		.previous{
+			float: left;
+			display: inline;
 			overflow: hidden;
-			padding: 8px 20px 10px 28px;
-			background-color: rgba(1, 2, 2, 0.02)
 		}
 
-		.col-3-2{
-			padding: 0px 55px 0px 135px;	
+		.next{
+			float: right;			
+			display: inline;
+			overflow: hidden;
 		}
 
-		.col-3-3{
-			padding: 0px 90px 0px 30px;
-		}
-
-		#col-1{
-			font-family: Lato;
-			color:black;
-			font-size: 14px;
+		#pre-next{
+			color: #000000;
+			font-size: 18px;
 			font-weight: 400;
+			line-height: 32px;
 		}
 
-		hr{
-			-webkit-margin-before:0.0em;
-			-webkit-margin-after:0.0em;
-			border-color: black;
-			border-top: 0.5px solid black;
+		#move-arrow{
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 32px;
+			text-align: left;
 		}
 
-		#bottom-border:hover {  
+		#bottom-border:hover{
 			border-bottom: 4px solid #17a2d4;
-			
 		}
